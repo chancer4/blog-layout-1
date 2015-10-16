@@ -1,0 +1,109 @@
+body{
+	background-color: #cccccc;
+	font-family: 'Roboto', sans-serif;
+}
+
+#blog-wrapper{
+	max-width: 900px;
+	margin: auto;
+	background-color: white;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+#header{
+	border: black;
+	width: 98%;
+
+}
+
+#header .header-text{
+	font-size: 30px;
+	float: left;
+	padding-left: 1%;
+	padding-top: 2%;
+}
+
+#header .header-text h1{
+	margin: 0px;
+	color: #073b63;
+}
+
+#header .search-bar{
+	float: right;
+	padding-top: 5%;
+	/*padding-right: 1px;*/
+}
+
+.search-bar input{
+	border-radius: 15px;
+}
+
+#main-container{
+	width: 74%;
+	float: left;
+	padding: .5%
+}
+
+#right-rail{
+	width: 24%;
+	float: left;
+	padding: .5%;
+	overflow: hidden;
+}
+
+#right-rail .right-rail-item{
+	background-color: #e7e7e7;
+	border: 1px solid gray;
+	overflow: hidden;
+	border-radius: 5px;
+	padding: 10px 7.5px;
+	width: 82%;
+	/*margin: auto;*/
+	margin: 1% auto;
+}
+
+.right-rail-item h4{
+	border-bottom: solid gray 1px;	
+	margin-top: 7px;
+	color: #7c7c7c
+
+}
+
+.right-rail-item ul{
+	color: teal
+
+}
+
+.blog-header-image img{
+	width: 100%;
+	/*height: 40px;*/
+	margin-top: .5%;
+	border-radius: 5px;
+}
+
+#blog-body-container{
+	margin: auto;
+}
+
+.blog-item .blog-author{
+	font-size: 12px;
+	color: gray;
+}
+
+#blog-body-container .blog-item-header{
+	border-bottom: solid 1px black ;
+	color: teal;
+}
+
+#blog-body-container .blog-body{
+	margin: auto;
+	width: 95%;
+}
+
+#blog-body-container .blog-body{
+	border: solid 1px black;
+	border-radius: 10px;
+	padding: 15px;
+	margin: 11px;
+}
